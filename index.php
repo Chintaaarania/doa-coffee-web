@@ -9,33 +9,33 @@
             <!-- Slide 1 -->
             <div class="slide">
                 <div>
-                    <h1 class="slide-title">Grind The Essentials</h1>
-                    <p class="slide-desc">Dibuat dari biji kopi Indonesia pilihan untuk pengalaman minum kopi terbaik setiap hari.</p>
+                    <h1 class="slide-title">Cerita Kopi Pegunungan Argopuro</h1>
+                    <p class="slide-desc">Mengangkat asal-usul DOA COFFEE dan potensi kopi lokal Bondowoso.</p>
                 </div>
                 <div class="slide-img-box">
-                    <img src="assets\images\uploads\selamat.jpeg" alt="Grind The Essentials">
+                    <img src="assets\images\uploads\kebun.jpeg" alt="Grind The Essentials">
                 </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="slide">
                 <div>
-                    <h1 class="slide-title">Cupping Score Resmi 85</h1>
-                    <p class="slide-desc">Terbukti secara resmi oleh SCAI untuk varian Arabica Wine khas Kebun Kloncing, Bondowoso.</p>
+                    <h1 class="slide-title">Kualitas dari Kebun hingga Cangkir</h1>
+                    <p class="slide-desc">Menampilkan proses produksi, pemilihan biji kopi, dan kualitas produk DOA COFFEE.</p>
                 </div>
                 <div class="slide-img-box">
-                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Cupping Score 85">
+                    <img src="assets\images\uploads\proses.jpeg" alt="Cupping Score 85">
                 </div>
             </div>
 
             <!-- Slide 3 -->
             <div class="slide">
                 <div>
-                    <h1 class="slide-title">Three Mountains. One Origin.</h1>
-                    <p class="slide-desc">Menjamin transparansi penuh dari kebun petani Bondowoso hingga tersaji hangat di cangkir Anda.</p>
+                    <h1 class="slide-title">Kopi Lokal Menuju Pasar Global</h1>
+                    <p class="slide-desc">Menampilkan pencapaian, pameran, kolaborasi, dan perjalanan DOA COFFEE sejak 2014.</p>
                 </div>
                 <div class="slide-img-box">
-                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80" alt="Single Origin Bondowoso">
+                    <img src="assets\images\uploads\ekspor.jpg" alt="Single Origin Bondowoso">
                 </div>
             </div>
 
