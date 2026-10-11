@@ -197,7 +197,7 @@ include 'includes/header.php';
                         <strong style="color: var(--primary-color);">
                             Profil Rasa:
                         </strong>
-                        Perpaduan fruity, asam segar, rempah, dan body khas.
+                        Perpaduan fruity, asam, rempah, dan body khas.
                         <br>
 
                         <strong style="color: var(--primary-color); margin-top: 5px; display: inline-block;">
