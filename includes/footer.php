@@ -1,6 +1,7 @@
 <footer class="site-footer">
     <div class="container">
         <div class="footer-top">
+
             <!-- Brand -->
             <div class="footer-brand">
                 <a href="index.php" class="footer-logo">
@@ -36,7 +37,7 @@
                     </p>
                 </div>
 
-                <a href="tel:+6281234567890" class="footer-contact">
+                <a href="tel:+6285232467121" class="footer-contact">
                     <i class="fa-solid fa-phone" aria-hidden="true"></i>
                     <span>+62 852-3246-7121</span>
                 </a>
@@ -62,53 +63,57 @@
                 </div>
             </div>
 
-<!-- Sosial Media -->
-<div class="footer-column footer-follow">
-    <h4 class="footer-title">Ikuti Kami</h4>
+            <!-- Sosial Media -->
+            <div class="footer-column footer-follow">
+                <h4 class="footer-title">Ikuti Kami</h4>
 
-    <div class="footer-socials">
-        <a
-            href="https://www.instagram.com/doacoffee_official/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-icon"
-            aria-label="Instagram DOA COFFEE"
-        >
-            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-        </a>
+                <div class="footer-socials">
+                    <a
+                        href="https://www.instagram.com/doacoffee_official/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-icon"
+                        aria-label="Instagram DOA COFFEE"
+                    >
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
 
-        <a
-            href="https://wa.me/6285232467121?text=Halo%2C%20Doa%20Coffee%21%0ASaya%20tertarik%20dengan%20produk%20%5BNama%20Produk%5D.%20Apakah%20produknya%20masih%20tersedia%3F"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-icon"
-            aria-label="WhatsApp DOA COFFEE"
-        >
-            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-        </a>
+                    <a
+                        href="https://wa.me/6285232467121?text=Halo%2C%20Doa%20Coffee%21%0ASaya%20tertarik%20dengan%20produk%20%5BNama%20Produk%5D.%20Apakah%20produknya%20masih%20tersedia%3F"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-icon"
+                        aria-label="WhatsApp DOA COFFEE"
+                    >
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    </a>
 
-        <a
-            href="https://www.tiktok.com/@doacoffee.id"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-icon"
-            aria-label="TikTok DOA COFFEE"
-        >
-            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
-        </a>
-    </div>
+                    <a
+                        href="https://www.tiktok.com/@doacoffee.id"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-icon"
+                        aria-label="TikTok DOA COFFEE"
+                    >
+                        <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                    </a>
+                </div>
 
-    <a
-        href="https://wa.me/6285232467121?text=Halo%2C%20Doa%20Coffee%21%0ASaya%20tertarik%20dengan%20produk%20%5BNama%20Produk%5D.%20Apakah%20produknya%20masih%20tersedia%3F"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="footer-message-btn"
-    >
-        <span>Kirim Pesan</span>
-        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-    </a>
-</div>
+                <a
+                    href="https://wa.me/6285232467121?text=Halo%2C%20Doa%20Coffee%21%0ASaya%20tertarik%20dengan%20produk%20%5BNama%20Produk%5D.%20Apakah%20produknya%20masih%20tersedia%3F"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="footer-message-btn"
+                >
+                    <span>Kirim Pesan</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
 
+        </div><!-- /.footer-top -->
+    </div><!-- /.container -->
+
+    <!-- Copyright -->
     <div class="footer-bottom">
         <div class="container footer-bottom-inner">
             <p class="footer-copyright">
