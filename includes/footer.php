@@ -122,7 +122,7 @@
 
 <!-- Tombol WhatsApp Mengambang -->
 <a
-    href="https://wa.me/6281234567890?text=Halo%20Doa%20Coffee"
+    href="https://wa.me/6285232467121?text=Halo%20Doa%20Coffee"
     class="floating-btn"
     target="_blank"
     rel="noopener noreferrer"
