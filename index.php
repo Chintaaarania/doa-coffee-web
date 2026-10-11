@@ -173,7 +173,7 @@
             </div>
             <div>
                 <h3 style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);">100%</h3>
-                <p style="font-weight: 700; color: var(--accent-color);">Single Origin Kloncing</p>
+                <p style="font-weight: 700; color: var(--accent-color);">Single Origin Argopuro</p>
             </div>
             <div>
                 <h3 style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color);"><i class="fa-solid fa-mug-hot"></i></h3>
@@ -203,7 +203,7 @@
                 </a>
             </div>
             <div style="text-align: center;">
-                <img src="assets\images\uploads\wine.jpg" alt="Arabica Wine Bondowoso" style="width: 100%; max-width: 440px; height: 320px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
+                <img src="assets\images\uploads\katalog (8).jpg" alt="Arabica Wine Bondowoso" style="width: 100%; max-width: 440px; height: 320px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
             </div>
         </div>
     </section>

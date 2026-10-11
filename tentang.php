@@ -212,26 +212,24 @@
                     <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80" alt="Awal Berdiri Doa Coffee">
                 </div>
                 <div class="milestone-content">
-                    <h3>Awal Pendirian di Argopuro</h3>
-                    <ol>
-                        <li>Awal pendirian Doa Coffee di lereng Pegunungan Argopuro, Bondowoso.</li>
-                        <li>Inisiasi pengelolaan kebun secara mandiri bersama komunitas petani lokal.</li>
-                    </ol>
+                    <h3>Awal Perjalanan Doa Coffee</h3>
+                    <p>
+                        <p>DOA COFFEE memulai perjalanan dengan mengembangkan potensi kopi lokal dari Pegunungan Argopuro, Bondowoso. Sejak awal, kami berkomitmen menghadirkan kopi berkualitas dengan mengutamakan proses dan pemilihan biji kopi.</p>
+                    </p>
                 </div>
             </div>
 
             <!-- 2023 -->
             <div class="milestone-item">
-                <div class="milestone-year">2023</div>
+                <div class="milestone-year">2020</div>
                 <div class="milestone-img-wrapper">
                     <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=600&q=80" alt="Sertifikasi & Cupping Score">
                 </div>
                 <div class="milestone-content">
-                    <h3>Cupping Score 85 & Sertifikasi Halal</h3>
-                    <ol>
-                        <li>Meraih skor resmi **85 SCAI** untuk varian Arabica Wine Bondowoso.</li>
-                        <li>Perolehan Sertifikasi Halal resmi untuk seluruh lini produk.</li>
-                    </ol>
+                    <h3>Pengembangan Kualitas dan Produk</h3>
+                    <p>
+                        <p>Doa Coffee terus mengembangkan proses pengolahan untuk menghasilkan karakter cita rasa kopi yang beragam. Berbagai varian Arabika dan Robusta dihadirkan untuk memenuhi kebutuhan penikmat kopi.</p>
+                    </p>
                 </div>
             </div>
 
@@ -242,11 +240,10 @@
                     <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80" alt="Pengembangan Layanan Online">
                 </div>
                 <div class="milestone-content">
-                    <h3>Digitalisasi & Ekspansi Layanan</h3>
-                    <ol>
-                        <li>Peluncuran platform web modern Doa Coffee untuk kemudahan pesanan online.</li>
-                        <li>Partisipasi aktif dalam pameran dan festival kopi nasional.</li>
-                    </ol>
+                    <h3>Melangkah ke Panggung Nasional</h3>
+                    <p>
+                        <p>Doa Coffee memperluas pengenalan kopi Bondowoso melalui partisipasi di INACRAFT 2026 dan kesempatan berbagi cerita di podcast Channel Pecah Telur. Langkah ini menjadi bagian dari semangat kami untuk memperkenalkan kopi lokal dan mendukung petani Indonesia.</p>
+                    </p>
                 </div>
             </div>
         </div>
