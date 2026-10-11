@@ -1148,3 +1148,49 @@ header {
         padding: 25px 0 30px;
     }
 }
+header .logo .header-logo {
+    height: 110px;
+    width: auto;
+    max-width: none;
+    object-fit: contain;
+}
+
+@media (max-width: 640px) {
+    header .logo .header-logo {
+        height: 75px;
+        width: auto;
+        max-width: none;
+    }
+}
+header .container.navbar {
+    min-height: 130px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+    header .container.navbar {
+        min-height: 95px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+header {
+    background: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header.is-scrolled {
+    background: rgba(255, 255, 255, 0.58);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
