@@ -86,10 +86,6 @@ include 'includes/header.php';
                 </div>
 
                 <div class="card-body" style="padding: 25px;">
-                    <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
-                        Fine Robusta
-                    </span>
-
                     <h3 class="card-title"
                         style="font-size: 1.5rem; margin: 5px 0 12px;">
                         Kopi Robusta
@@ -101,19 +97,6 @@ include 'includes/header.php';
                         Memiliki karakter rasa yang kuat dengan <em>body</em>
                         tebal, terasa pekat dan mantap saat diminum.
                     </p>
-
-                    <div style="background-color: var(--bg-secondary); padding: 15px; border-radius: 12px; border: 1px solid var(--border-light); font-size: 0.88rem;">
-                        <strong style="color: var(--primary-color);">
-                            Profil Rasa:
-                        </strong>
-                        Cokelat, kacang, sentuhan rempah, dan keasaman rendah.
-                        <br>
-
-                        <strong style="color: var(--primary-color); margin-top: 5px; display: inline-block;">
-                            Proses:
-                        </strong>
-                        Buah merah pilihan pascapanen terkontrol.
-                    </div>
                 </div>
             </div>
 
@@ -131,10 +114,6 @@ include 'includes/header.php';
                 </div>
 
                 <div class="card-body" style="padding: 25px;">
-                    <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
-                        Specialty Arabica
-                    </span>
-
                     <h3 class="card-title"
                         style="font-size: 1.5rem; margin: 5px 0 12px;">
                         Kopi Arabika
@@ -146,20 +125,6 @@ include 'includes/header.php';
                         rasa yang kompleks, beragam, manis alami,
                         serta keasaman yang seimbang.
                     </p>
-
-                    <div style="background-color: var(--bg-secondary); padding: 15px; border-radius: 12px; border: 1px solid var(--border-light); font-size: 0.88rem;">
-                        <strong style="color: var(--primary-color);">
-                            Profil Rasa:
-                        </strong>
-                        Aroma floral &amp; fruity, keasaman seimbang,
-                        aftertaste panjang.
-                        <br>
-
-                        <strong style="color: var(--primary-color); margin-top: 5px; display: inline-block;">
-                            Metode:
-                        </strong>
-                        Natural, Full Wash, Honey, &amp; Wine Process.
-                    </div>
                 </div>
             </div>
 
@@ -177,10 +142,6 @@ include 'includes/header.php';
                 </div>
 
                 <div class="card-body" style="padding: 25px;">
-                    <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
-                        Rare Exotic Coffee
-                    </span>
-
                     <h3 class="card-title"
                         style="font-size: 1.5rem; margin: 5px 0 12px;">
                         Kopi Excelsa
@@ -192,19 +153,6 @@ include 'includes/header.php';
                         Robusta maupun Arabika. Pilihan tepat bagi
                         penikmat eksplorasi kopi Nusantara.
                     </p>
-
-                    <div style="background-color: var(--bg-secondary); padding: 15px; border-radius: 12px; border: 1px solid var(--border-light); font-size: 0.88rem;">
-                        <strong style="color: var(--primary-color);">
-                            Profil Rasa:
-                        </strong>
-                        Perpaduan fruity, asam segar, rempah, dan body khas.
-                        <br>
-
-                        <strong style="color: var(--primary-color); margin-top: 5px; display: inline-block;">
-                            Proses:
-                        </strong>
-                        Diolah khusus menjaga keunikan aroma alami.
-                    </div>
                 </div>
             </div>
 
