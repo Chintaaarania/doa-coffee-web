@@ -38,7 +38,7 @@
 
                 <a href="tel:+6281234567890" class="footer-contact">
                     <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                    <span>0812-3456-7890</span>
+                    <span>+62 852-3246-7121</span>
                 </a>
             </div>
 
@@ -94,7 +94,7 @@
                 </div>
 
                 <a
-                    href="https://wa.me/6281234567890?text=Halo%20Doa%20Coffee"
+                    href="https://wa.me/6285232467121?text=Halo%20Doa%20Coffee"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="footer-message-btn"
