@@ -25,6 +25,8 @@ if ($tab === 'products') {
         $name        = trim($_POST['name']);
         $description = trim($_POST['description']);
         $price       = floatval($_POST['price']);
+        $weight      = trim($_POST['weight'] ?? '');
+        if (empty($weight)) { $weight = '250 Gram'; }
         $image_path  = '';
 
         // Proses Upload File Gambar
@@ -54,8 +56,8 @@ if ($tab === 'products') {
         }
 
         if (!empty($name) && !empty($description) && $price > 0 && !empty($image_path)) {
-            $stmt = $conn->prepare("INSERT INTO products (name, description, price, image) VALUES (?, ?, ?, ?)");
-            $stmt->bind_param("ssds", $name, $description, $price, $image_path);
+            $stmt = $conn->prepare("INSERT INTO products (name, description, price, weight, image) VALUES (?, ?, ?, ?, ?)");
+            $stmt->bind_param("ssdss", $name, $description, $price, $weight, $image_path);
             if ($stmt->execute()) {
                 $message = "Produk katalog berhasil ditambahkan!";
                 $message_type = "success";
@@ -72,6 +74,8 @@ if ($tab === 'products') {
         $name        = trim($_POST['name']);
         $description = trim($_POST['description']);
         $price       = floatval($_POST['price']);
+        $weight      = trim($_POST['weight'] ?? '');
+        if (empty($weight)) { $weight = '250 Gram'; }
         $image_path  = trim($_POST['old_image']); // Default gunakan gambar lama
 
         // Cek jika user mengunggah file gambar baru
@@ -92,8 +96,8 @@ if ($tab === 'products') {
         }
 
         if ($id > 0 && !empty($name) && !empty($description) && $price > 0 && !empty($image_path)) {
-            $stmt = $conn->prepare("UPDATE products SET name = ?, description = ?, price = ?, image = ? WHERE id = ?");
-            $stmt->bind_param("ssdsi", $name, $description, $price, $image_path, $id);
+            $stmt = $conn->prepare("UPDATE products SET name = ?, description = ?, price = ?, weight = ?, image = ? WHERE id = ?");
+            $stmt->bind_param("ssdssi", $name, $description, $price, $weight, $image_path, $id);
             if ($stmt->execute()) {
                 $message = "Produk katalog berhasil diperbarui!";
                 $message_type = "success";
@@ -309,9 +313,16 @@ if ($tab === 'cupping' && isset($_GET['edit_cupping'])) {
                         <input type="text" name="name" required placeholder="Contoh: Arabica Wine Bondowoso" value="<?= htmlspecialchars($edit_product['name'] ?? ''); ?>" style="width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border-light); font-size: 0.9rem; outline: none;">
                     </div>
 
-                    <div style="margin-bottom: 16px;">
-                        <label style="display: block; font-weight: 700; color: var(--primary-color); margin-bottom: 6px; font-size: 0.85rem;">Harga (Rp)</label>
-                        <input type="number" name="price" required placeholder="28000" value="<?= htmlspecialchars($edit_product['price'] ?? ''); ?>" style="width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border-light); font-size: 0.9rem; outline: none;">
+                    <!-- HARGA & SATUAN GRAM -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+                        <div>
+                            <label style="display: block; font-weight: 700; color: var(--primary-color); margin-bottom: 6px; font-size: 0.85rem;">Harga (Rp)</label>
+                            <input type="number" name="price" required placeholder="28000" value="<?= htmlspecialchars($edit_product['price'] ?? ''); ?>" style="width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border-light); font-size: 0.9rem; outline: none;">
+                        </div>
+                        <div>
+                            <label style="display: block; font-weight: 700; color: var(--primary-color); margin-bottom: 6px; font-size: 0.85rem;">Satuan Gram / Berat</label>
+                            <input type="text" name="weight" required placeholder="250 Gram" value="<?= htmlspecialchars($edit_product['weight'] ?? '250 Gram'); ?>" style="width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border-light); font-size: 0.9rem; outline: none;">
+                        </div>
                     </div>
 
                     <!-- INPUT FILE UPLOAD GAMBAR -->
@@ -352,6 +363,7 @@ if ($tab === 'cupping' && isset($_GET['edit_cupping'])) {
                         <tr style="border-bottom: 2px solid var(--border-light); color: var(--primary-color);">
                             <th style="padding: 10px;">Gambar</th>
                             <th style="padding: 10px;">Nama & Deskripsi</th>
+                            <th style="padding: 10px;">Gram</th>
                             <th style="padding: 10px;">Harga</th>
                             <th style="padding: 10px; text-align: center;">Aksi</th>
                         </tr>
@@ -366,6 +378,11 @@ if ($tab === 'cupping' && isset($_GET['edit_cupping'])) {
                                     <td style="padding: 12px 10px;">
                                         <strong style="color: var(--primary-color); display: block; font-size: 0.95rem;"><?= htmlspecialchars($row['name']); ?></strong>
                                         <span style="color: var(--text-muted); font-size: 0.8rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><?= htmlspecialchars($row['description']); ?></span>
+                                    </td>
+                                    <td style="padding: 12px 10px; white-space: nowrap;">
+                                        <span style="background: var(--cream-soft); padding: 3px 8px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; color: var(--primary-color);">
+                                            <?= htmlspecialchars($row['weight'] ?? '250 Gram'); ?>
+                                        </span>
                                     </td>
                                     <td style="padding: 12px 10px; font-weight: 700; color: var(--primary-color); white-space: nowrap;">
                                         Rp <?= number_format($row['price'], 0, ',', '.'); ?>
@@ -382,7 +399,7 @@ if ($tab === 'cupping' && isset($_GET['edit_cupping'])) {
                             <?php endwhile; ?>
                         <?php else : ?>
                             <tr>
-                                <td colspan="4" style="padding: 30px; text-align: center; color: var(--text-muted);">Belum ada produk katalog di database.</td>
+                                <td colspan="5" style="padding: 30px; text-align: center; color: var(--text-muted);">Belum ada produk katalog di database.</td>
                             </tr>
                         <?php endif; ?>
                     </tbody>
