@@ -17,7 +17,7 @@
                     <h4 class="footer-title">Customer Center</h4>
                     <div class="footer-info-item">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span>DOA COFFEE BONDOWOSO, Jl. Brigpol Sudarlan, Nangkaan, Kec. Bondowoso, Kabupaten Bondowoso, Jawa Timur 68215</span>
+                        <span>DOi COFFEE BONDOWOSO, Jl. Brigpol Sudarlan, Nangkaan, Kec. Bondowoso, Kabupaten Bondowoso, Jawa Timur 68215</span>
                     </div>
                     <div class="footer-info-item">
                         <i class="fa-brands fa-whatsapp"></i>
