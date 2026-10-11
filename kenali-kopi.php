@@ -39,15 +39,10 @@ include 'includes/header.php';
                     </span>
                 </div>
                 <div class="card-body" style="padding: 25px;">
-                    <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">Fine Robusta</span>
                     <h3 class="card-title" style="font-size: 1.5rem; margin: 5px 0 12px;">Kopi Robusta</h3>
                     <p class="card-text" style="line-height: 1.7; color: var(--text-dark); margin-bottom: 15px;">
                         Tumbuh di kawasan Pegunungan Argopuro. Memiliki karakter rasa yang kuat dengan <em>body</em> tebal, terasa pekat dan mantap saat diminum.
                     </p>
-                    <div style="background-color: var(--bg-secondary); padding: 15px; border-radius: 12px; border: 1px solid var(--border-light); font-size: 0.88rem;">
-                        <strong style="color: var(--primary-color);">Profil Rasa:</strong> Cokelat, kacang, sentuhan rempah, dan keasaman rendah. <br>
-                        <strong style="color: var(--primary-color); margin-top: 5px; display: inline-block;">Proses:</strong> Buah merah pilihan pascapanen terkontrol.
-                    </div>
                 </div>
             </div>
 
@@ -60,15 +55,10 @@ include 'includes/header.php';
                     </span>
                 </div>
                 <div class="card-body" style="padding: 25px;">
-                    <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">Specialty Arabica</span>
                     <h3 class="card-title" style="font-size: 1.5rem; margin: 5px 0 12px;">Kopi Arabika</h3>
                     <p class="card-text" style="line-height: 1.7; color: var(--text-dark); margin-bottom: 15px;">
                         Berasal dari dataran tinggi Argopuro dengan karakter rasa yang kompleks, beragam, manis alami, serta keasaman yang seimbang.
                     </p>
-                    <div style="background-color: var(--bg-secondary); padding: 15px; border-radius: 12px; border: 1px solid var(--border-light); font-size: 0.88rem;">
-                        <strong style="color: var(--primary-color);">Profil Rasa:</strong> Aroma floral & fruity, keasaman seimbang, aftertaste panjang. <br>
-                        <strong style="color: var(--primary-color); margin-top: 5px; display: inline-block;">Metode:</strong> Natural, Full Wash, Honey, & Wine Process.
-                    </div>
                 </div>
             </div>
 
@@ -81,15 +71,10 @@ include 'includes/header.php';
                     </span>
                 </div>
                 <div class="card-body" style="padding: 25px;">
-                    <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">Rare Exotic Coffee</span>
                     <h3 class="card-title" style="font-size: 1.5rem; margin: 5px 0 12px;">Kopi Excelsa</h3>
                     <p class="card-text" style="line-height: 1.7; color: var(--text-dark); margin-bottom: 15px;">
                         Memiliki keunikan rasa eksotis yang berbeda dari Robusta maupun Arabika. Pilihan tepat bagi penikmat eksplorasi kopi Nusantara.
                     </p>
-                    <div style="background-color: var(--bg-secondary); padding: 15px; border-radius: 12px; border: 1px solid var(--border-light); font-size: 0.88rem;">
-                        <strong style="color: var(--primary-color);">Profil Rasa:</strong> Perpaduan fruity, asam segar, rempah, dan body khas. <br>
-                        <strong style="color: var(--primary-color); margin-top: 5px; display: inline-block;">Proses:</strong> Diolah khusus menjaga keunikan aroma alami.
-                    </div>
                 </div>
             </div>
 
@@ -116,7 +101,7 @@ include 'includes/header.php';
                 </div>
                 <h3 style="font-size: 1.3rem; color: var(--primary-color); margin-bottom: 10px; font-weight: 700;">Robusta</h3>
                 <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.7;">
-                    Kuat, pekat, dan <em>bold</em> dengan <em>body</em> yang tebal. Didominasi cita rasa cokelat dan kacang, dilengkapi sedikit sentuhan rempah serta tingkat keasaman yang rendah.
+                    Menghadirkan karakter rasa yang kuat dan tegas dengan body tebal serta tingkat keasaman yang rendah. Profil utamanya didominasi oleh paduan cita rasa khas cokelat, kacang, dan sentuhan halus rempah.
                 </p>
             </div>
 
@@ -127,7 +112,8 @@ include 'includes/header.php';
                 </div>
                 <h3 style="font-size: 1.3rem; color: var(--primary-color); margin-bottom: 10px; font-weight: 700;">Arabika</h3>
                 <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.7;">
-                    Kompleks, lembut, dan aromatik. Menghadirkan perpaduan <em>floral</em> dan <em>fruity</em>, dengan kemanisan alami serta <em>acidity</em> yang seimbang. <em>Aftertaste</em>-nya panjang.
+                    Memiliki profil rasa yang kompleks dengan keasaman seimbang, kemanisan alami, dan <em>aftertaste</em> yang bertahan lama. Setiap seduhannya kaya akan nuansa aroma <em>floral</em> serta keharuman <em>fruity</em> yang menyegarkan.
+
                 </p>
             </div>
 
@@ -138,7 +124,7 @@ include 'includes/header.php';
                 </div>
                 <h3 style="font-size: 1.3rem; color: var(--primary-color); margin-bottom: 10px; font-weight: 700;">Excelsa</h3>
                 <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.7;">
-                    Unik, segar, dan eksotis dengan perpaduan cita rasa <em>fruity</em>, asam segar, dan sedikit rempah. Memberikan pengalaman rasa yang berbeda bagi penikmat eksplorasi kopi.
+                    Menyajikan karakter eksotis hasil perpaduan cita rasa <em>fruity</em> dan sentuhan asam segar yang khas. Cita rasanya semakin diperkaya oleh nuansa rempah yang unik dengan ketebalan <em>body</em> yang pas.
                 </p>
             </div>
 
