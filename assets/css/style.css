@@ -1,0 +1,849 @@
+/* ============================================================
+   DOA COFFEE - FORE COFFEE STYLE TASTE & PALETTE
+   Font: Plus Jakarta Sans | Layout: Clean, Modern, Spacing
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Doa Coffee Color Palette */
+  --primary-color: #3C2A21;      /* Coklat Tua Khas Kopi / Text Highlight */
+  --accent-color: #8B5E3C;       /* Coklat Aksen / Hover State */
+  --cream-soft: #F5EBE6;          /* Krem Lembut / Background Badge */
+  --bg-main: #FFFFFF;             /* White Clean Background */
+  --bg-secondary: #FAFAFA;        /* Off-White / Section Background */
+  --text-dark: #1E1E1E;           /* Body Text Dark */
+  --text-muted: #666666;          /* Muted Gray Text */
+  --border-light: #EFEFEF;        /* Light Border */
+  --shadow-soft: 0 10px 30px rgba(60, 42, 33, 0.05);
+  --shadow-hover: 0 15px 35px rgba(60, 42, 33, 0.1);
+  --radius-pill: 50px;
+  --radius-card: 16px;
+  --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ============================================================
+   HEADER & NAVBAR (Style Fore Coffee)
+   ============================================================ */
+header {
+  background-color: var(--bg-main);
+  border-bottom: 1px solid var(--border-light);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 28px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 8px 0;
+  position: relative;
+  transition: var(--transition);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary-color);
+}
+
+/* Active Line Indicator khas Fore (Garis Atas/Bawah) */
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 3px 3px 0 0;
+}
+
+/* Action Button (Pill Button khas Fore) */
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn-pill:hover {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+}
+
+.btn-pill-filled {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  border: 1.5px solid var(--primary-color);
+}
+
+.btn-pill-filled:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* ============================================================
+   HERO SECTION (2-Column Blend Style)
+   ============================================================ */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 520px;
+  overflow: hidden;
+  background-color: var(--bg-main);
+  padding: 40px 0;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.hero-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Subtle Gradient Fade pada Gambar Khas Fore */
+.hero-image-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.hero-content {
+  padding-left: 40px;
+}
+
+/* Subtitle Tag dengan Garis Khas Fore */
+.subtitle-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.subtitle-badge::before {
+  content: '';
+  width: 32px;
+  height: 2px;
+  background-color: var(--primary-color);
+  display: inline-block;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.hero-description {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 30px;
+}
+
+/* ============================================================
+   CARD STYLE (Produk & Katalog Minimalis)
+   ============================================================ */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.card {
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+  border-color: transparent;
+}
+
+.card-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background-color: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.card:hover .card-img-wrapper img {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-light);
+}
+
+.card-price {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+/* ============================================================
+   FLOATING ACTION BUTTON (Khas Fore / WA)
+   ============================================================ */
+.floating-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 56px;
+  height: 56px;
+  background-color: #25D366; /* atau var(--primary-color) */
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  z-index: 999;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: var(--transition);
+}
+
+.floating-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Tablet & Mobile */
+@media (max-width: 992px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .hero-content {
+    padding-left: 0;
+  }
+  .hero-title {
+    font-size: 2.4rem;
+  }
+  .nav-menu {
+    display: none; /* Bisa tambahkan hamburger menu jika ada */
+  }
+}
+/* ============================================================
+   BANNER SLIDER HERO (STYLE FORE COFFEE)
+   ============================================================ */
+.hero-slider-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--cream-soft);
+  border-radius: var(--radius-card);
+  margin: 20px 0 40px;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.slide {
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  padding: 60px;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+.slide-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  line-height: 1.1;
+  margin-bottom: 20px;
+  letter-spacing: -1.5px;
+}
+
+.slide-desc {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  line-height: 1.6;
+  max-width: 540px;
+}
+
+.slide-img-box {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+}
+
+/* Navigasi Panah Khas Fore */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--border-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  transition: var(--transition);
+}
+
+.slider-arrow:hover {
+  background: var(--primary-color);
+  color: #FFFFFF;
+}
+
+.slider-arrow.prev { left: 20px; }
+.slider-arrow.next { right: 20px; }
+
+/* Dots Indicator */
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(60, 42, 33, 0.2);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.dot.active {
+  background: var(--primary-color);
+  width: 28px;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .slide {
+    grid-template-columns: 1fr;
+    padding: 40px 25px 60px;
+  }
+  .slide-title { font-size: 2.4rem; }
+  .slide-img-box { height: 240px; }
+}
+/* ============================================================
+   TESTIMONI SECTION (GAYA FORE COFFEE)
+   ============================================================ */
+.testimonial-section {
+  padding: 70px 0;
+  background-color: var(--bg-main);
+  position: relative;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.testimonial-card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-card);
+  padding: 30px;
+  position: relative;
+  transition: var(--transition);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-soft);
+  border-color: var(--accent-color);
+}
+
+.testimonial-quote-icon {
+  font-size: 1.8rem;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.testimonial-author-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-author-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--primary-color);
+}
+
+.testimonial-author-role {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ============================================================
+   INSTAGRAM FEED SECTION (GAYA FORE COFFEE)
+   ============================================================ */
+.instagram-section {
+  padding: 60px 0 80px;
+  background-color: var(--bg-secondary);
+  text-align: center;
+}
+
+.instagram-handle {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  letter-spacing: -1px;
+  margin: 10px 0 20px;
+}
+
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.instagram-item {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.instagram-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.instagram-item:hover img {
+  transform: scale(1.08);
+}
+
+.instagram-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(60, 42, 33, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.instagram-item:hover .instagram-overlay {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .instagram-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .instagram-handle {
+    font-size: 2.2rem;
+  }
+}
+
+/* ============================================================
+   FOOTER RAPI & LENGKAP (GAYA FORE COFFEE)
+   ============================================================ */
+.site-footer {
+  background-color: #FFFFFF;
+  border-top: 1px solid var(--border-light);
+  padding: 60px 0 30px;
+  color: var(--text-dark);
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.footer-brand .logo {
+  margin-bottom: 15px;
+}
+
+.footer-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 18px;
+}
+
+.footer-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.footer-info-item i {
+  color: var(--primary-color);
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--cream-soft);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.social-icon:hover {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* ============================================================
+   PAGE TENTANG (ABOUT STYLING KHAS FORE COFFEE)
+   ============================================================ */
+
+/* Experts / Team Slider Card */
+.experts-card {
+  background-color: #FAF8F5;
+  border-radius: 28px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 50px;
+  align-items: center;
+  position: relative;
+  box-shadow: var(--shadow-soft);
+}
+
+.expert-img-container {
+  position: relative;
+  text-align: center;
+}
+
+.expert-avatar {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #FFFFFF;
+  box-shadow: var(--shadow-soft);
+}
+
+.expert-badge {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #FFFFFF;
+  padding: 10px 24px;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  white-space: nowrap;
+}
+
+.expert-name {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+.expert-role {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.expert-quote {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+/* Timeline / Milestone Section */
+.milestone-container {
+  padding: 60px 0;
+}
+
+.milestone-item {
+  display: grid;
+  grid-template-columns: 100px 320px 1fr;
+  gap: 35px;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.milestone-year {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  line-height: 1;
+}
+
+.milestone-img-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 200px;
+  box-shadow: var(--shadow-soft);
+}
+
+.milestone-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.milestone-content h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.milestone-content ol {
+  padding-left: 20px;
+  color: var(--text-dark);
+  line-height: 1.7;
+}
+
+.milestone-content li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 992px) {
+  .experts-card {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+  .milestone-item {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .milestone-img-wrapper {
+    height: 220px;
+  }
+}
+/* ============================================================
+   LANGUAGE SWITCHER (STYLE FORE COFFEE: ID | EN | ZH)
+   ============================================================ */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.lang-switcher a {
+  text-decoration: none;
+  color: #B0B0B0;
+  transition: var(--transition);
+  padding: 2px 4px;
+}
+
+.lang-switcher a:hover,
+.lang-switcher a.active {
+  color: var(--primary-color);
+}
+
+.lang-switcher .divider {
+  color: var(--border-light);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
