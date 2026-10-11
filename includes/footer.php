@@ -42,7 +42,7 @@
             <!-- FOOTER BAWAH -->
             <div class="footer-bottom">
                 <div style="font-size: 0.85rem; color: var(--text-muted);">
-                    &copy; <?= date('Y'); ?> Doa Coffee. All rights reserved. &bull; Kebun Kloncing, Bondowoso
+                    &copy; <?= date('Y'); ?> Doa Coffee. All rights reserved. &bull; 
                 </div>
 
                 <!-- Sosial Media Circle Icons -->
