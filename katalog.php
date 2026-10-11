@@ -10,12 +10,12 @@ $products = $conn->query("SELECT * FROM products ORDER BY id DESC");
 
     <!-- HEADER KATALOG -->
     <div style="margin-bottom: 40px;">
-        <div class="subtitle-badge">DAFTAR MENU</div>
+        <div class="subtitle-badge">KATALOG PRODUK</div>
         <h1 style="font-size: 2.5rem; font-weight: 800; color: var(--primary-color); margin: 8px 0;">
-            Katalog Doa Coffee
+            Pilihan Kopi Doa Coffee
         </h1>
         <p style="color: var(--text-muted); font-size: 1rem; max-width: 550px; line-height: 1.6;">
-            Pilih varian favoritmu di bawah ini, klik tombol pesan dan sistem akan langsung mengarahkan pesananmu ke WhatsApp resmi kami.
+            Pilih varian favoritmu di bawah ini, klik tombol pesan untuk menanyakan ketersediaan dan melakukan pemesanan melalui WhatsApp resmi Doa Coffee.
         </p>
     </div>
 

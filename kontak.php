@@ -32,18 +32,18 @@ $map_embed = "https://maps.google.com/maps?q=" . urlencode($alamat_lengkap) . "&
         <div class="card" style="padding: 28px 20px; text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
             <div>
                 <div style="width: 54px; height: 54px; background-color: #25D366; color: #FFF; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 16px;">
-                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
                 </div>
                 <h3 style="color: var(--primary-color); margin-bottom: 8px; font-weight: 700; font-size: 1.15rem;">WhatsApp</h3>
                 <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 20px; line-height: 1.5;">
-                    Respon cepat untuk pemesanan & info umum.
+                    Respon cepat untuk pemesanan &amp; info umum.
                 </p>
             </div>
             <div style="display: flex; flex-direction: column; gap: 8px;">
-                <a href="https://wa.me/<?= $no_wa1; ?>?text=Halo%20Doa%20Coffee" target="_blank" class="btn-pill btn-pill-filled" style="padding: 8px 12px; font-size: 0.8rem;">
+                <a href="https://wa.me/6285221224989?text=Halo%2C%20Doa%20Coffee%21%0ASaya%20tertarik%20dengan%20produk%20%5BNama%20Produk%5D.%20Apakah%20produknya%20masih%20tersedia%3F" target="_blank" rel="noopener noreferrer" class="btn-pill btn-pill-filled" style="padding: 8px 12px; font-size: 0.8rem;">
                     Chat (0852-2122-4989)
                 </a>
-                <a href="https://wa.me/<?= $no_wa2; ?>?text=Halo%20Doa%20Coffee" target="_blank" class="btn-pill" style="padding: 8px 12px; font-size: 0.8rem;">
+                <a href="https://wa.me/6285232467121?text=Halo%2C%20Doa%20Coffee%21%0ASaya%20tertarik%20dengan%20produk%20%5BNama%20Produk%5D.%20Apakah%20produknya%20masih%20tersedia%3F" target="_blank" rel="noopener noreferrer" class="btn-pill" style="padding: 8px 12px; font-size: 0.8rem;">
                     Chat (0852-3246-7121)
                 </a>
             </div>
