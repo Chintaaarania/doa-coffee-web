@@ -53,9 +53,6 @@
                     <a href="https://wa.me/6281234567890" target="_blank" class="social-icon" title="WhatsApp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
-                    <a href="#" class="social-icon" title="YouTube">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
                     <a href="#" class="social-icon" title="TikTok">
                         <i class="fa-brands fa-tiktok"></i>
                     </a>
