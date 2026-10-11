@@ -86,12 +86,6 @@ include 'includes/header.php';
                 </div>
 
                 <div class="card-body" style="padding: 25px;">
-<<<<<<< HEAD
-                    <h3 class="card-title" style="font-size: 1.5rem; margin: 5px 0 12px;">Kopi Robusta</h3>
-                    <p class="card-text" style="line-height: 1.7; color: var(--text-dark); margin-bottom: 15px;">
-                        Tumbuh di kawasan Pegunungan Argopuro. Memiliki karakter rasa yang kuat dengan <em>body</em> tebal, terasa pekat dan mantap saat diminum.
-                    </p>
-=======
                     <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
                         Fine Robusta
                     </span>
@@ -120,7 +114,6 @@ include 'includes/header.php';
                         </strong>
                         Buah merah pilihan pascapanen terkontrol.
                     </div>
->>>>>>> 65dce5f9d6cdbd8f936ad2f2ade9e0f2d8b41268
                 </div>
             </div>
 
@@ -138,12 +131,6 @@ include 'includes/header.php';
                 </div>
 
                 <div class="card-body" style="padding: 25px;">
-<<<<<<< HEAD
-                    <h3 class="card-title" style="font-size: 1.5rem; margin: 5px 0 12px;">Kopi Arabika</h3>
-                    <p class="card-text" style="line-height: 1.7; color: var(--text-dark); margin-bottom: 15px;">
-                        Berasal dari dataran tinggi Argopuro dengan karakter rasa yang kompleks, beragam, manis alami, serta keasaman yang seimbang.
-                    </p>
-=======
                     <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
                         Specialty Arabica
                     </span>
@@ -173,7 +160,6 @@ include 'includes/header.php';
                         </strong>
                         Natural, Full Wash, Honey, &amp; Wine Process.
                     </div>
->>>>>>> 65dce5f9d6cdbd8f936ad2f2ade9e0f2d8b41268
                 </div>
             </div>
 
@@ -191,12 +177,6 @@ include 'includes/header.php';
                 </div>
 
                 <div class="card-body" style="padding: 25px;">
-<<<<<<< HEAD
-                    <h3 class="card-title" style="font-size: 1.5rem; margin: 5px 0 12px;">Kopi Excelsa</h3>
-                    <p class="card-text" style="line-height: 1.7; color: var(--text-dark); margin-bottom: 15px;">
-                        Memiliki keunikan rasa eksotis yang berbeda dari Robusta maupun Arabika. Pilihan tepat bagi penikmat eksplorasi kopi Nusantara.
-                    </p>
-=======
                     <span style="color: var(--accent-color); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
                         Rare Exotic Coffee
                     </span>
@@ -225,7 +205,6 @@ include 'includes/header.php';
                         </strong>
                         Diolah khusus menjaga keunikan aroma alami.
                     </div>
->>>>>>> 65dce5f9d6cdbd8f936ad2f2ade9e0f2d8b41268
                 </div>
             </div>
 
@@ -262,14 +241,10 @@ include 'includes/header.php';
                 </h3>
 
                 <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.7;">
-<<<<<<< HEAD
-                    Menghadirkan karakter rasa yang kuat dan tegas dengan body tebal serta tingkat keasaman yang rendah. Profil utamanya didominasi oleh paduan cita rasa khas cokelat, kacang, dan sentuhan halus rempah.
-=======
                     Kuat, pekat, dan <em>bold</em> dengan <em>body</em>
                     yang tebal. Didominasi cita rasa cokelat dan kacang,
                     dilengkapi sedikit sentuhan rempah serta tingkat
                     keasaman yang rendah.
->>>>>>> 65dce5f9d6cdbd8f936ad2f2ade9e0f2d8b41268
                 </p>
             </div>
 
@@ -284,15 +259,10 @@ include 'includes/header.php';
                 </h3>
 
                 <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.7;">
-<<<<<<< HEAD
-                    Memiliki profil rasa yang kompleks dengan keasaman seimbang, kemanisan alami, dan <em>aftertaste</em> yang bertahan lama. Setiap seduhannya kaya akan nuansa aroma <em>floral</em> serta keharuman <em>fruity</em> yang menyegarkan.
-
-=======
                     Kompleks, lembut, dan aromatik. Menghadirkan perpaduan
                     <em>floral</em> dan <em>fruity</em>, dengan kemanisan
                     alami serta <em>acidity</em> yang seimbang.
                     <em>Aftertaste</em>-nya panjang.
->>>>>>> 65dce5f9d6cdbd8f936ad2f2ade9e0f2d8b41268
                 </p>
             </div>
 
@@ -307,14 +277,10 @@ include 'includes/header.php';
                 </h3>
 
                 <p style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.7;">
-<<<<<<< HEAD
-                    Menyajikan karakter eksotis hasil perpaduan cita rasa <em>fruity</em> dan sentuhan asam segar yang khas. Cita rasanya semakin diperkaya oleh nuansa rempah yang unik dengan ketebalan <em>body</em> yang pas.
-=======
                     Unik, segar, dan eksotis dengan perpaduan cita rasa
                     <em>fruity</em>, asam segar, dan sedikit rempah.
                     Memberikan pengalaman rasa yang berbeda bagi
                     penikmat eksplorasi kopi.
->>>>>>> 65dce5f9d6cdbd8f936ad2f2ade9e0f2d8b41268
                 </p>
             </div>
 
