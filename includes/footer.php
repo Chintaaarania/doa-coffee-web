@@ -1,70 +1,135 @@
 <footer class="site-footer">
-        <div class="container">
-            <!-- FOOTER ATAS -->
-            <div class="footer-top">
-                <!-- Brand & Deskripsi -->
-                <div class="footer-brand">
-                    <a href="index.php" class="logo" style="margin-bottom: 15px; display: inline-block;">
-                        <i class="fa-solid fa-mug-hot"></i> Doa Coffee
-                    </a>
-                    <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.7; max-width: 320px;">
-                        Menghadirkan keaslian biji kopi merah pilihan khas Pegunungan Argopuro, Bondowoso dengan ketelitian proses dan kehangatan doa.
+    <div class="container">
+        <div class="footer-top">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <a href="index.php" class="footer-logo">
+                    <i class="fa-solid fa-mug-hot" aria-hidden="true"></i>
+
+                    <div class="footer-logo-text">
+                        <span class="footer-brand-name">DOA COFFEE</span>
+                        <span class="footer-brand-tagline">
+                            ARGOPURO MOUNTAIN COFFEE
+                        </span>
+                    </div>
+                </a>
+
+                <p class="footer-description">
+                    Kopi dari Pegunungan Argopuro,<br>
+                    dengan ketelitian proses dan kehangatan doa.
+                </p>
+            </div>
+
+            <!-- Customer Center -->
+            <div class="footer-column">
+                <h4 class="footer-title">
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                    <span>Customer Center</span>
+                </h4>
+
+                <div class="footer-column-content">
+                    <p class="footer-address">
+                        DOA COFFEE BONDOWOSO<br>
+                        Jl. Brigpol Sudarlan, Nangkaan,<br>
+                        Kec. Bondowoso, Kabupaten Bondowoso,<br>
+                        Jawa Timur 68215
                     </p>
                 </div>
 
-                <!-- Customer Center -->
-                <div>
-                    <h4 class="footer-title">Customer Center</h4>
-                    <div class="footer-info-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <span>DOA COFFEE BONDOWOSO, Jl. Brigpol Sudarlan, Nangkaan, Kec. Bondowoso, Kabupaten Bondowoso, Jawa Timur 68215</span>
-                    </div>
-                    <div class="footer-info-item">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <span>0812-3456-7890</span>
-                    </div>
+                <a href="tel:+6281234567890" class="footer-contact">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    <span>0812-3456-7890</span>
+                </a>
+            </div>
+
+            <!-- Jam Operasional -->
+            <div class="footer-column">
+                <h4 class="footer-title">
+                    <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                    <span>Jam Operasional</span>
+                </h4>
+
+                <div class="footer-column-content">
+                    <p>Senin – Minggu<br>24 Jam</p>
                 </div>
 
-                <!-- Jam Operasional & Informasi Layanan -->
-                <div>
-                    <h4 class="footer-title">Jam Operasional & Layanan</h4>
-                    <div class="footer-info-item">
-                        <i class="fa-solid fa-clock"></i>
-                        <span>Senin - Minggu: 24 Jam</span>
-                    </div>
-                    <div class="footer-info-item">
-                        <i class="fa-solid fa-store"></i>
-                        <span>Dine-in, Takeaway & Delivery via WhatsApp</span>
-                    </div>
+                <div class="footer-service">
+                    <i class="fa-solid fa-truck" aria-hidden="true"></i>
+                    <p>
+                        Dine-in, Takeaway &amp; Delivery<br>
+                        via WhatsApp
+                    </p>
                 </div>
             </div>
 
-            <!-- FOOTER BAWAH -->
-            <div class="footer-bottom">
-                <div style="font-size: 0.85rem; color: var(--text-muted);">
-                    &copy; <?= date('Y'); ?> Doa Coffee. All rights reserved. &bull; 
+            <!-- Sosial Media -->
+            <div class="footer-column footer-follow">
+                <h4 class="footer-title">Ikuti Kami</h4>
+
+                <div class="footer-socials">
+                    <a
+                        href="https://instagram.com/doacoffee.id"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-icon"
+                        aria-label="Instagram DOA COFFEE"
+                    >
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a
+                        href="https://wa.me/6281234567890"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-icon"
+                        aria-label="WhatsApp DOA COFFEE"
+                    >
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    </a>
+
+                    <!-- Isi URL profil TikTok agar tautan aktif -->
+                    <span class="social-icon" aria-label="TikTok">
+                        <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                    </span>
                 </div>
 
-                <!-- Sosial Media Circle Icons -->
-                <div class="footer-socials">
-                    <a href="https://instagram.com/doacoffee.id" target="_blank" class="social-icon" title="Instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://wa.me/6281234567890" target="_blank" class="social-icon" title="WhatsApp">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    <a href="#" class="social-icon" title="TikTok">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
-                </div>
+                <a
+                    href="https://wa.me/6281234567890?text=Halo%20Doa%20Coffee"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="footer-message-btn"
+                >
+                    <span>Kirim Pesan</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
-    </footer>
+    </div>
 
-    <!-- Floating WhatsApp Button Khas Fore -->
-    <a href="https://wa.me/6281234567890?text=Halo%20Doa%20Coffee" class="floating-btn" target="_blank" title="Hubungi Kami">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <p class="footer-copyright">
+                &copy; <?= date('Y'); ?> DOA COFFEE. All rights reserved.
+            </p>
+
+            <div class="footer-bottom-tagline">
+                <i class="fa-solid fa-mountain" aria-hidden="true"></i>
+                <span>GOOD COFFEE BETTER TOMORROW</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Tombol WhatsApp Mengambang -->
+<a
+    href="https://wa.me/6281234567890?text=Halo%20Doa%20Coffee"
+    class="floating-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Hubungi DOA COFFEE melalui WhatsApp"
+>
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+</a>
 
 </body>
 </html>
