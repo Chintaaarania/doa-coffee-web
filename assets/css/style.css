@@ -1194,3 +1194,195 @@ header.is-scrolled {
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
+/* FOOTER LEBIH RINGKAS */
+.site-footer {
+    height: auto;
+    min-height: 0;
+    padding: 0;
+}
+
+.site-footer > .container,
+.site-footer .footer-bottom > .container {
+    width: 90%;
+    max-width: 1440px;
+    padding-inline: 20px;
+}
+
+.site-footer .footer-top {
+    grid-template-columns: 1.35fr 1.25fr 1fr 0.8fr;
+    align-items: start;
+    gap: 24px;
+    padding: 36px 0 28px;
+    border-bottom: 0;
+}
+
+.site-footer .footer-brand {
+    padding-right: 0;
+}
+
+.site-footer .footer-logo {
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.site-footer .footer-logo > i {
+    font-size: 36px;
+}
+
+.site-footer .footer-logo-text {
+    gap: 5px;
+}
+
+.site-footer .footer-brand-name {
+    font-size: 28px;
+    line-height: 1.15;
+}
+
+.site-footer .footer-brand-tagline {
+    font-size: 8px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.site-footer .footer-description {
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.site-footer .footer-column {
+    padding-left: 22px;
+}
+
+.site-footer .footer-title {
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 11px;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+}
+
+.site-footer .footer-title > i {
+    width: 20px;
+    font-size: 20px;
+}
+
+.site-footer .footer-column-content {
+    padding-left: 30px;
+}
+
+.site-footer .footer-column-content p,
+.site-footer .footer-service p {
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.site-footer .footer-contact,
+.site-footer .footer-service {
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.site-footer .footer-contact {
+    font-size: 13px;
+}
+
+.site-footer .footer-contact > i,
+.site-footer .footer-service > i {
+    width: 20px;
+    font-size: 18px;
+}
+
+.site-footer .footer-service > i {
+    margin-top: 3px;
+}
+
+.site-footer .footer-socials {
+    gap: 10px;
+    margin-top: 0;
+}
+
+.site-footer .social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.site-footer .footer-message-btn {
+    max-width: 190px;
+    margin-top: 18px;
+    padding: 10px 16px;
+    gap: 12px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.site-footer .footer-bottom {
+    display: block;
+    margin: 0;
+    padding: 14px 0 18px;
+    border-top: 1px solid var(--footer-line);
+}
+
+.site-footer .footer-bottom-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.site-footer .footer-copyright {
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* TABLET */
+@media (max-width: 1100px) {
+    .site-footer .footer-top {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 26px;
+        padding: 32px 0 24px;
+    }
+
+    .site-footer .footer-top > :nth-child(3) {
+        padding-left: 0;
+        border-left: 0;
+    }
+}
+
+/* HP */
+@media (max-width: 640px) {
+    .site-footer > .container,
+    .site-footer .footer-bottom > .container {
+        width: 100%;
+        padding-inline: 24px;
+    }
+
+    .site-footer .footer-top {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 28px 0 22px;
+    }
+
+    .site-footer .footer-column,
+    .site-footer .footer-top > :nth-child(3) {
+        padding: 18px 0 0;
+        border-left: 0;
+        border-top: 1px solid var(--footer-line);
+    }
+
+    .site-footer .footer-brand-name {
+        font-size: 26px;
+    }
+
+    .site-footer .footer-logo > i {
+        font-size: 34px;
+    }
+
+    .site-footer .footer-bottom-inner {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
