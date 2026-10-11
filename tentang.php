@@ -23,12 +23,12 @@
             <div>
                 <div class="subtitle-badge">Filosofi Kami</div>
                 <h2 style="font-size: 2.8rem; font-weight: 800; color: var(--primary-color); line-height: 1.1; letter-spacing: -1px; margin-top: 10px;">
-                    Grind The<br>Essentials
+                    Secangkir Kopi<br>Menginspirasi
                 </h2>
             </div>
             <div style="color: var(--text-dark); font-size: 1.05rem; line-height: 1.8;">
                 <p>
-                    Di tengah hiruk pikuk keseharian yang serba cepat, <strong>Doa Coffee</strong> hadir sebagai ruang hangat untuk sejenak melambat, bernapas lega, dan menikmati segelas kopi berkualitas tinggi. Kata <em>'Grind'</em> melambangkan kerja keras harian sekaligus ketelitian meracik biji kopi pilihan.
+                    Setiap cangkir Doa Coffee menghadirkan cerita tentang alam Pegunungan Argopuro, kerja keras petani, dan kekayaan cita rasa kopi lokal. Lebih dari sekadar kopi, kami ingin menginspirasi setiap langkah untuk menghargai proses, mendukung petani Indonesia, dan membawa kopi Bondowoso ke dunia.
                 </p>
             </div>
         </div>
@@ -209,21 +209,21 @@
             <div class="milestone-item">
                 <div class="milestone-year">2014</div>
                 <div class="milestone-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80" alt="Awal Berdiri Doa Coffee">
+                    <img src="assets\images\uploads\14.jpeg" alt="Awal Berdiri Doa Coffee">
                 </div>
                 <div class="milestone-content">
                     <h3>Awal Perjalanan Doa Coffee</h3>
                     <p>
-                        <p>DOA COFFEE memulai perjalanan dengan mengembangkan potensi kopi lokal dari Pegunungan Argopuro, Bondowoso. Sejak awal, kami berkomitmen menghadirkan kopi berkualitas dengan mengutamakan proses dan pemilihan biji kopi.</p>
+                        <p>Doa Coffee memulai perjalanan dengan mengembangkan potensi kopi lokal dari Pegunungan Argopuro, Bondowoso. Sejak awal, kami berkomitmen menghadirkan kopi berkualitas dengan mengutamakan proses dan pemilihan biji kopi.</p>
                     </p>
                 </div>
             </div>
 
-            <!-- 2023 -->
+            <!-- 2020 -->
             <div class="milestone-item">
                 <div class="milestone-year">2020</div>
                 <div class="milestone-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=600&q=80" alt="Sertifikasi & Cupping Score">
+                    <img src="assets\images\uploads\20.jpg" alt="Sertifikasi & Cupping Score">
                 </div>
                 <div class="milestone-content">
                     <h3>Pengembangan Kualitas dan Produk</h3>
@@ -237,7 +237,7 @@
             <div class="milestone-item">
                 <div class="milestone-year">2026</div>
                 <div class="milestone-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80" alt="Pengembangan Layanan Online">
+                    <img src="assets\images\uploads\pameran.jpeg" alt="Pengembangan Layanan Online">
                 </div>
                 <div class="milestone-content">
                     <h3>Melangkah ke Panggung Nasional</h3>

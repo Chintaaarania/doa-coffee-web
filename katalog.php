@@ -58,7 +58,7 @@ $products = $conn->query("SELECT * FROM products ORDER BY id DESC");
                             <small style="color: var(--text-muted); font-size: 0.75rem; font-weight: 600;">/ <?= htmlspecialchars($weight); ?></small>
                         </div>
 
-                        <a href="https://wa.me/6285221224989?text=Halo%20Doa%20Coffee,%20saya%20mau%20pesan%20<?= urlencode($row['name']); ?>%20(<?= urlencode($weight); ?>)" target="_blank" class="btn-pill btn-pill-filled" style="padding: 8px 18px; font-size: 0.85rem;">
+                        <a href="https://wa.me/6285232467121?text=Halo%20Doa%20Coffee,%20saya%20mau%20pesan%20<?= urlencode($row['name']); ?>%20(<?= urlencode($weight); ?>)" target="_blank" class="btn-pill btn-pill-filled" style="padding: 8px 18px; font-size: 0.85rem;">
                             <i class="fa-brands fa-whatsapp" style="margin-right: 5px;"></i> Pesan
                         </a>
                     </div>

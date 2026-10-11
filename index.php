@@ -119,7 +119,7 @@
 
             <div class="card">
                 <div class="card-img-wrapper">
-                    <img src="assets\images\uploads\pameran.jpeg" alt="Kebun Kloncing">
+                    <img src="assets\images\uploads\26.jpeg" alt="Kebun Kloncing">
                 </div>
                 <div class="card-body">
                     <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Pameran</span>
