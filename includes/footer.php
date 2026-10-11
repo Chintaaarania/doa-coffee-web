@@ -30,7 +30,7 @@
                     <h4 class="footer-title">Jam Operasional & Layanan</h4>
                     <div class="footer-info-item">
                         <i class="fa-solid fa-clock"></i>
-                        <span>Senin - Minggu: 08.00 - 22.00 WIB</span>
+                        <span>Senin - Minggu: 24 Jam</span>
                     </div>
                     <div class="footer-info-item">
                         <i class="fa-solid fa-store"></i>
