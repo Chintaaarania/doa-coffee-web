@@ -97,45 +97,45 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
             <div class="card">
                 <div class="card-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80" alt="Pameran Kopi">
+                    <img src="assets\images\uploads\pameran2.jpeg" alt="Pameran Kopi">
                 </div>
                 <div class="card-body">
                     <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Pameran</span>
-                    <h3 class="card-title" style="font-size: 1.15rem;">Pameran Kopi Spesialti Nusantara</h3>
-                    <p class="card-text">Partisipasi Doa Coffee dalam mengenalkan varian Arabica Wine khas Kebun Kloncing ke penikmat kopi nasional.</p>
+                    <h3 class="card-title" style="font-size: 1.15rem;">Pameran Franchise Internasional</h3>
+                    <p class="card-text">Doa Coffee hadir di Pameran Franchise Internasional Hall 1 & 2 untuk mengenalkan kopi Bondowoso sebagai produk unggulan ke pasar nasional hingga global.</p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80" alt="Cupping Session">
+                    <img src="assets\images\uploads\colab.jpg" alt="Cupping Session">
                 </div>
                 <div class="card-body">
-                    <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Sertifikasi</span>
-                    <h3 class="card-title" style="font-size: 1.15rem;">Sesi Cupping Score SCAI</h3>
-                    <p class="card-text">Dokumentasi pengujian rasa secara profesional yang berhasil meraih skor resmi 85 untuk Arabica Wine.</p>
+                    <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Kolaborasi</span>
+                    <h3 class="card-title" style="font-size: 1.15rem;">Kolaborasi Kampus & Doa Coffee</h3>
+                    <p class="card-text">Kolaborasi mahasiswa Bisnis Digital semester 3 bersama Doa Coffee dalam perancangan strategi pemasaran digital dan pembuatan situs web resmi.</p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Kebun Kloncing">
+                    <img src="assets\images\uploads\pameran.jpeg" alt="Kebun Kloncing">
                 </div>
                 <div class="card-body">
-                    <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Kebun Petani</span>
-                    <h3 class="card-title" style="font-size: 1.15rem;">Kolaborasi Bersama Petani Bondowoso</h3>
-                    <p class="card-text">Momen pendampingan dan panen bersama para petani lokal Kebun Kloncing guna menjaga mutu biji kopi.</p>
+                    <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Pameran</span>
+                    <h3 class="card-title" style="font-size: 1.15rem;">Langkah Doa Coffee Mendunia</h3>
+                    <p class="card-text">Doa Coffee berkesempatan hadir di INACRAFT 2026, sebuah ruang pertemuan antara budaya, karya, dan nilai lokal Indonesia.</p>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Workshop Brew">
+                    <img src="assets\images\uploads\potkes.jpeg" alt="Workshop Brew">
                 </div>
                 <div class="card-body">
-                    <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Workshop</span>
-                    <h3 class="card-title" style="font-size: 1.15rem;">Edukasi & Seduh Bersama</h3>
-                    <p class="card-text">Kegiatan berbagi ilmu seputar teknik penyeduhan manual brew bersama komunitas pecinta kopi lokal.</p>
+                    <span style="display: inline-block; background-color: var(--cream-soft); color: var(--primary-color); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; margin-bottom: 12px; width: fit-content;">Podcast</span>
+                    <h3 class="card-title" style="font-size: 1.15rem;">Doa Coffee Berbagi Cerita</h3>
+                    <p class="card-text">Tim DOA COFFEE berbagi cerita di podcast Channel Pecah Telur tentang semangat memperkenalkan kopi Bondowoso ke dunia dan mendukung petani Indonesia.</p>
                 </div>
             </div>
         </div>
@@ -158,7 +158,7 @@
                 </a>
             </div>
             <div>
-                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=700&q=80" alt="Eksplorasi Profil Rasa Doa Coffee" style="width: 100%; height: 280px; object-fit: cover; border-radius: 16px;">
+                <img src="assets\images\uploads\cupping.jpeg" alt="Eksplorasi Profil Rasa Doa Coffee" style="width: 100%; height: 280px; object-fit: cover; border-radius: 16px;">
             </div>
         </div>
     </section>
@@ -203,7 +203,7 @@
                 </a>
             </div>
             <div style="text-align: center;">
-                <img src="assets\images\uploads\prod_6ac8a2e3452083.81343766.jpeg" alt="Arabica Wine Bondowoso" style="width: 100%; max-width: 440px; height: 320px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
+                <img src="assets\images\uploads\wine.jpg" alt="Arabica Wine Bondowoso" style="width: 100%; max-width: 440px; height: 320px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
             </div>
         </div>
     </section>
@@ -276,19 +276,19 @@
 
             <div class="instagram-grid">
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee Feed">
+                    <img src="assets\images\uploads\logo.jpg" alt="Doa Coffee Feed">
                     <div class="instagram-overlay"><i class="fa-brands fa-instagram"></i></div>
                 </div>
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee Feed">
+                    <img src="assets\images\uploads\ig11.jpg" alt="Doa Coffee Feed">
                     <div class="instagram-overlay"><i class="fa-brands fa-instagram"></i></div>
                 </div>
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee Feed">
+                    <img src="assets\images\uploads\ig22.jpg" alt="Doa Coffee Feed">
                     <div class="instagram-overlay"><i class="fa-brands fa-instagram"></i></div>
                 </div>
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee Feed">
+                    <img src="assets\images\uploads\ig33.jpg" alt="Doa Coffee Feed">
                     <div class="instagram-overlay"><i class="fa-brands fa-instagram"></i></div>
                 </div>
             </div>
@@ -308,19 +308,19 @@
 
             <div class="instagram-grid">
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee TikTok">
+                    <img src="assets\images\uploads\t1.webp" alt="Doa Coffee TikTok">
                     <div class="instagram-overlay"><i class="fa-brands fa-tiktok"></i></div>
                 </div>
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee TikTok">
+                    <img src="assets\images\uploads\t2.webp" alt="Doa Coffee TikTok">
                     <div class="instagram-overlay"><i class="fa-brands fa-tiktok"></i></div>
                 </div>
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee TikTok">
+                    <img src="assets\images\uploads\t3.png" alt="Doa Coffee TikTok">
                     <div class="instagram-overlay"><i class="fa-brands fa-tiktok"></i></div>
                 </div>
                 <div class="instagram-item">
-                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=500&q=80" alt="Doa Coffee TikTok">
+                    <img src="assets\images\uploads\t4.png" alt="Doa Coffee TikTok">
                     <div class="instagram-overlay"><i class="fa-brands fa-tiktok"></i></div>
                 </div>
             </div>
