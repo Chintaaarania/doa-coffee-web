@@ -62,7 +62,7 @@
                     </p>
                 </div>
                 <div style="position: relative;">
-                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Kebun Kopi Argopuro" style="width: 100%; height: 320px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
+                    <img src="assets\images\uploads\argopuro.jpeg" alt="Kebun Kopi Argopuro" style="width: 100%; height: 320px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
                 </div>
             </div>
         </div>
@@ -74,8 +74,8 @@
                 
                 <!-- Kolase 2 Foto Bergaya Grid -->
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                    <img src="https://images.unsplash.com/photo-1524350876685-274059332603?auto=format&fit=crop&w=600&q=80" alt="Pemetikan Ceri Merah" style="width: 100%; height: 260px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
-                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Penjemuran Biji Kopi" style="width: 100%; height: 260px; object-fit: cover; border-radius: 20px; margin-top: 25px; box-shadow: var(--shadow-soft);">
+                    <img src="assets\images\uploads\p1.jpg" alt="Pemetikan Ceri Merah" style="width: 100%; height: 260px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
+                    <img src="assets\images\uploads\p2.jpg" alt="Penjemuran Biji Kopi" style="width: 100%; height: 260px; object-fit: cover; border-radius: 20px; margin-top: 25px; box-shadow: var(--shadow-soft);">
                 </div>
 
                 <!-- Konten Teks Hulu -->
@@ -116,7 +116,7 @@
                 </div>
 
                 <div style="text-align: center;">
-                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80" alt="Roasting & Cupping Score" style="width: 100%; height: 300px; object-fit: cover; border-radius: 20px; border: 3px solid rgba(255,255,255,0.15);">
+                    <img src="assets\images\uploads\proses2.jpeg" alt="Roasting & Cupping Score" style="width: 100%; height: 300px; object-fit: cover; border-radius: 20px;">
                 </div>
 
             </div>
@@ -128,7 +128,7 @@
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center;">
                 
                 <div style="order: 2;">
-                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Penyeduhan Kopi" style="width: 100%; height: 280px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
+                    <img src="assets\images\uploads\seduh.jpeg" alt="Penyeduhan Kopi" style="width: 100%; height: 280px; object-fit: cover; border-radius: 20px; box-shadow: var(--shadow-soft);">
                 </div>
 
                 <div style="order: 1;">
@@ -158,10 +158,10 @@
             </div>
             <div style="color: var(--text-dark); font-size: 1.02rem; line-height: 1.8;">
                 <p style="margin-bottom: 16px;">
-                    Doa Coffee berkomitmen penuh menjaga standar higienitas dan keaslian tertinggi. Seluruh racikan menu kami menggunakan <strong>100% bahan baku Halal</strong> yang tersertifikasi resmi.
+                    Doa Coffee berkomitmen menghadirkan produk kopi yang berkualitas dan memenuhi <strong>standar kehalalan</strong>. Sertifikasi halal menjadi bentuk jaminan kenyamanan dan kepercayaan bagi konsumen dalam menikmati setiap produk kami.
                 </p>
                 <p>
-                    Biji kopi Arabica Wine unggulan kami dari Kebun Kloncing telah teruji secara independen dan meraih <strong>Cupping Score Resmi 85</strong> dari SCAI (Specialty Coffee Association of Indonesia).
+                    Dengan <strong>cupping score 85</strong>, Doa Coffee menunjukkan potensi cita rasa yang istimewa dengan karakter aroma dan rasa yang khas. Setiap proses pengolahan dilakukan dengan perhatian terhadap kualitas untuk menghadirkan pengalaman menikmati kopi yang berkesan.
                 </p>
             </div>
         </div>
