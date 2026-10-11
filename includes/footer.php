@@ -117,7 +117,7 @@
 
 <!-- Tombol WhatsApp Mengambang -->
 <a
-    href="https://wa.me/6285232467121?text=Halo%20Doa%20Coffee"
+    href="https://wa.me/6285232467121?text=Halo%2C%20Doa%20Coffee%21%20%E2%98%95%0ASaya%20ingin%20tanya%20tentang%20produk%20dan%20cara%20pemesanannya.%20Boleh%20dibantu%3F"
     class="floating-btn"
     target="_blank"
     rel="noopener noreferrer"
