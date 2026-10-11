@@ -111,11 +111,6 @@
             <p class="footer-copyright">
                 &copy; <?= date('Y'); ?> DOA COFFEE. All rights reserved.
             </p>
-
-            <div class="footer-bottom-tagline">
-                <i class="fa-solid fa-mountain" aria-hidden="true"></i>
-                <span>GOOD COFFEE BETTER TOMORROW</span>
-            </div>
         </div>
     </div>
 </footer>
